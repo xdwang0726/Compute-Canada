@@ -10,3 +10,11 @@ Creating virtual environment on Compute Canada
 5. (pytorch) [YOUR_USER_NAME@beluga2 ~]$ pip install --no-index --upgrade pip
    upgrade pip
 6. You can use 'pip install' to install  
+
+7. install from github repo
+   Apex for example:
+   
+   a. (pytorch) [YOUR_USER_NAME@beluga2 ~]$ module load gcc/7.3.0
+   b. (pytorch) [YOUR_USER_NAME@beluga2 ~]$ git clone https://github.com/NVIDIA/apex
+   c. (pytorch) [YOUR_USER_NAME@beluga2 ~]$ cd apex
+   d. (pytorch) [YOUR_USER_NAME@beluga2 ~]$ python setup.py install --cpp_ext --cuda_ext
