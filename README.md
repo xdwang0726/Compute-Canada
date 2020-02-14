@@ -1,2 +1,2 @@
-# Compute-Canada-
-Instruction of using Compute Canada 
+# Compute_Canada
+This is a instructions of using Compute Canada (for personal usage)
