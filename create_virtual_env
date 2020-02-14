@@ -1,0 +1,12 @@
+Creating virtual environment on Compute Canada 
+
+1. login to your CC account 
+2. [YOUR_USER_NAME@beluga2 ~]$ module load python/3.7 cuda/10.1
+   load python module and cuda
+3. [YOUR_USER_NAME@beluga2 ~]$ virtualenv --no-download ~/pytorch
+   where pytorch is your environment's name 
+4. [YOUR_USER_NAME@beluga2 ~]$ source ~/pytorch/bin/activate
+   activiate your environment 
+5. (pytorch) [YOUR_USER_NAME@beluga2 ~]$ pip install --no-index --upgrade pip
+   upgrade pip
+6. You can use 'pip install' to install  
