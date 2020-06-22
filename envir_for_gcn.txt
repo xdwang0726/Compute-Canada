@@ -1,0 +1,13 @@
+# Create a virtual environment for multi-label classification using GCN
+
+~ $ module load gcc/7.3 python/3.7 scipy-stack
+~ $ virtualenv ml4h_gcn
+~ $ source ~/ml4h_gcn/bin/activate
+(ml4h_gcn) ~ $ pip install torch==1.4.0 spacy torchtext allennlp nltk --no-index
+# install PyG
+(ml4h_gcn) ~ $ pip install torch_geometric torch_cluster torch_sparse torch_spline_conv torch_scatter --no-index
+(ml4h_gcn) ~ $ python -c "import torch_geometric"
+RDFLib Version: 5.0.0
+# install DGL
+(ml4h_gcn) ~ $ pip install -U dgl_gpu==0.4.3.post2 --no-index
+(ml4h_gcn) ~ $ pip install ijson
