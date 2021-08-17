@@ -1,0 +1,7 @@
+module load scipy-stack cmake/3.18 python/3.7
+
+cmake -B build . -DFAISS_ENABLE_GPU=OFF
+
+make -C build -j faiss
+
+make -C build install
